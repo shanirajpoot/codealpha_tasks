@@ -3,22 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>To-Do List</title>
-
+    <title>Age Calculator</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <!-- main content starts here  -->
-    <div class="todo-container">
-      <h2>To-Do List</h2>
-      <form id="task-form">
-        <input type="text" id="task-input" placeholder="Enter a task" />
-        <button type="submit">Add</button>
-      </form>
-      <ul id="task-list"></ul>
+    <!-- main content start -->
+    <div class="age-calculator">
+      <h2>Age Calculator</h2>
+      <input type="date" id="dob" />
+      <button onclick="calculateAge()">Calculate Age</button>
+      <div class="result" id="result"></div>
     </div>
-    <!-- main content ends here  -->
-    <!-- links of js  -->
+    <!-- main content start -->
+    <!-- link of js  -->
     <script src="./assets/js/script.js"></script>
   </body>
 </html>
